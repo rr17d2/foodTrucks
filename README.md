@@ -6,3 +6,5 @@ Within the folder (foodTruck) you will see all the files require to run this app
    url = getString(R.string.baseUrl) + "truckDesc.php?name=" + URLEncoder.encode(truckName, "UTF-8");
 - Second option: update a food truck's location. In times a food truck might change its location and everyone will not know.
     Users have access to change the location of a particular truck. (Assuming everyone is a good samaritan)
+--- Additional ideals
+------------------ Instead of people having access to change the truck's location, the food truck owners have that access. 
